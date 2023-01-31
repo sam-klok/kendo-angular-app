@@ -6,19 +6,24 @@ import { AppComponent } from './app.component';
 import { ButtonsModule } from '@progress/kendo-angular-buttons';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtonControlPanelComponent } from './button-control-panel/button-control-panel.component';
+import { GridPanelComponent } from './grid-panel/grid-panel.component';
+import { GridModule } from '@progress/kendo-angular-grid';
+
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonControlPanelComponent
+    ButtonControlPanelComponent,
+    GridPanelComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ButtonsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    GridModule
   ],
   providers: [],
   bootstrap: [AppComponent]
