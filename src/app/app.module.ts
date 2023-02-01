@@ -8,22 +8,25 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtonControlPanelComponent } from './button-control-panel/button-control-panel.component';
 import { GridPanelComponent } from './grid-panel/grid-panel.component';
 import { GridModule } from '@progress/kendo-angular-grid';
+import { SearchPanelComponent } from './search-panel/search-panel.component';
 
-
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonControlPanelComponent,
-    GridPanelComponent
+    GridPanelComponent,
+    SearchPanelComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ButtonsModule,
     BrowserAnimationsModule,
-    GridModule
+    GridModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

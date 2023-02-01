@@ -1,0 +1,8 @@
+<p>Input part of the contact name and push button to filter.</p>
+
+<div class="k-block">
+    <input id="searchTextInput" type="text" [(ngModel)]="searchText"/>
+    <button kendoButton 
+        [icon]="'search'" 
+        (click)="onClickButtonSearch()"></button>
+</div>
