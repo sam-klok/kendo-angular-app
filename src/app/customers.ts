@@ -8,7 +8,8 @@ export const customers = [{
     'PostalCode': '12209',
     'Country': 'Germany',
     'Phone': '030-0074321',
-    'Fax': '030-0076545'
+    'Fax': '030-0076545',
+    'DOB': '01/01/2000'
 }, {
     'Id': 'ANATR',
     'CompanyName': 'Ana Trujillo Emparedados y helados',
@@ -19,7 +20,8 @@ export const customers = [{
     'PostalCode': '05021',
     'Country': 'Mexico',
     'Phone': '(5) 555-4729',
-    'Fax': '(5) 555-3745'
+    'Fax': '(5) 555-3745',
+    'DOB': '11/23/1974'
 }, {
     'Id': 'ANTON',
     'CompanyName': 'Antonio Moreno Taquería',
@@ -29,7 +31,8 @@ export const customers = [{
     'City': 'México D.F.',
     'PostalCode': '05023',
     'Country': 'Mexico',
-    'Phone': '(5) 555-3932'
+    'Phone': '(5) 555-3932',
+    'DOB': '03/22/2015'
 }, {
     'Id': 'AROUT',
     'CompanyName': 'Around the Horn',
@@ -40,7 +43,8 @@ export const customers = [{
     'PostalCode': 'WA1 1DP',
     'Country': 'UK',
     'Phone': '(171) 555-7788',
-    'Fax': '(171) 555-6750'
+    'Fax': '(171) 555-6750',
+    'DOB': '01/08/1955'
 }, {
     'Id': 'BERGS',
     'CompanyName': 'Berglunds snabbköp',
@@ -51,7 +55,8 @@ export const customers = [{
     'PostalCode': 'S-958 22',
     'Country': 'Sweden',
     'Phone': '0921-12 34 65',
-    'Fax': '0921-12 34 67'
+    'Fax': '0921-12 34 67',
+    'DOB': '06/18/1930'
 }, {
     'Id': 'BLAUS',
     'CompanyName': 'Blauer See Delikatessen',
