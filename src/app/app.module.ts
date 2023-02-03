@@ -11,6 +11,7 @@ import { GridModule } from '@progress/kendo-angular-grid';
 import { SearchPanelComponent } from './search-panel/search-panel.component';
 
 import { FormsModule } from '@angular/forms';
+import { GridSecondComponent } from './grid-second/grid-second.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     ButtonControlPanelComponent,
     GridPanelComponent,
-    SearchPanelComponent
+    SearchPanelComponent,
+    GridSecondComponent
   ],
   imports: [
     BrowserModule,

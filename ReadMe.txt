@@ -14,3 +14,7 @@ ng add @progress/kendo-angular-buttons
 https://www.youtube.com/watch?v=AAgAWJEbWIg
 https://www.telerik.com/kendo-angular-ui/components/grid/
 ng add @progress/kendo-angular-grid   
+
+3. Routing
+Use URL to navigate to another page:
+http://localhost:4200/gridsecond

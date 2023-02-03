@@ -1,7 +1,17 @@
 <h1>Hello Kendo UI for Angular!</h1>
 
-<button-control-panel></button-control-panel>
+
+<ul class="nav navbar-nav">
+    <li><a [routerLink]="['/gridfirst']" >Home</a></li>
+    <li><a [routerLink]="['/gridsecond']">Second Grid</a></li>
+</ul>
+<div>
+    <router-outlet></router-outlet>
+</div>
+
+
+<!-- <button-control-panel></button-control-panel>
 
 <app-grid-panel width="80%"></app-grid-panel>
 
-<app-search-panel></app-search-panel>
+<app-search-panel></app-search-panel> -->
