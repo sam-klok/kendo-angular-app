@@ -12,8 +12,9 @@
         [height]="510">
         <kendo-grid-column field="ContactName" title="Contact" [width]="120"></kendo-grid-column>
         <!-- <kendo-grid-column field="DOB" [width]="130"></kendo-grid-column> -->
-        <kendo-grid-column field="DOB" 
-        title="Date Of Birth" [width]="200" 
+
+        <!-- <kendo-grid-column field="DOB" 
+            title="Date Of Birth" [width]="200" 
             format="{0:MM/dd/yyyy}">
             <ng-template kendoGridFilterCellTemplate let-filter let-column="column">
                 <kendo-grid-date-filter-cell 
@@ -21,7 +22,16 @@
                     [filter]="filter">
                 </kendo-grid-date-filter-cell>
             </ng-template>
-        </kendo-grid-column>    
+        </kendo-grid-column>     -->
+
+        <kendo-grid-column
+            field="DOB"
+            title="Date Of Birth"
+            filter="date"
+            format="MM/dd/yyyy"
+            [width]="200" >      
+        </kendo-grid-column>  
+
     </kendo-grid>
 
 </div>

@@ -1,28 +1,28 @@
-export const customers = [{
-    'Id': 'ALFKI',
-    'CompanyName': 'Alfreds Futterkiste',
-    'ContactName': 'Maria Anders',
-    'ContactTitle': 'Sales Representative',
-    'Address': 'Obere Str. 57',
-    'City': 'Berlin',
-    'PostalCode': '12209',
-    'Country': 'Germany',
-    'Phone': '030-0074321',
-    'Fax': '030-0076545',
-    'DOB': '01/31/2000'
-}, {
-    'Id': 'ANATR',
-    'CompanyName': 'Ana Bokov Emparedados y helados',
-    'ContactName': 'Ana Bokov',
-    'ContactTitle': 'Owner',
-    'Address': 'Avda. de la Constitución 2222',
-    'City': 'México D.F.',
-    'PostalCode': '05021',
-    'Country': 'Mexico',
-    'Phone': '(5) 555-4729',
-    'Fax': '(5) 555-3745',
-    'DOB': '11/23/1974'
-}, {
+    export const customers = [{
+        'Id': 'ALFKI',
+        'CompanyName': 'Alfreds Futterkiste',
+        'ContactName': 'Maria Anders',
+        'ContactTitle': 'Sales Representative',
+        'Address': 'Obere Str. 57',
+        'City': 'Berlin',
+        'PostalCode': '12209',
+        'Country': 'Germany',
+        'Phone': '030-0074321',
+        'Fax': '030-0076545',
+        'DOB': '02/22/2023'
+    }, {
+        'Id': 'ANATR',
+        'CompanyName': 'Ana Bokov Emparedados y helados',
+        'ContactName': 'Ana Bokov',
+        'ContactTitle': 'Owner',
+        'Address': 'Avda. de la Constitución 2222',
+        'City': 'México D.F.',
+        'PostalCode': '05021',
+        'Country': 'Mexico',
+        'Phone': '(5) 555-4729',
+        'Fax': '(5) 555-3745',
+        'DOB': '11/23/1974'
+    }, {
     'Id': 'ANTON',
     'CompanyName': 'Antonio Moreno Taquería',
     'ContactName': 'Antonio Moreno',

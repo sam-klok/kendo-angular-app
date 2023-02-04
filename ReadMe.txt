@@ -18,3 +18,6 @@ ng add @progress/kendo-angular-grid
 3. Routing
 Use URL to navigate to another page:
 http://localhost:4200/gridsecond
+
+4. Adding kendo license.
+kendo-ui-license.txt

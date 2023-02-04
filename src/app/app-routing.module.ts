@@ -6,8 +6,10 @@ import { GridSecondComponent } from './grid-second/grid-second.component';
 
 const routes: Routes = [
   { path: 'gridfirst', component: GridPanelComponent},
+  { path: 'gridfirst/:CompanyName', component: GridPanelComponent},
   { path: 'gridsecond', component: GridSecondComponent},
-  { path: '**', component: AppComponent}
+  { path: 'gridsecond/:CompanyName', component: GridSecondComponent},
+  { path: '**', component: GridPanelComponent}
 ];
 
 @NgModule({

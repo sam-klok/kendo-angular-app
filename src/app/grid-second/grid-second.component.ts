@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { customers } from '../customers';
+import { customerObjs } from '../customersCovert';
 
 @Component({
   //selector: 'app-grid-second',  //we don't need selector, we will use routing
@@ -8,7 +9,7 @@ import { customers } from '../customers';
 })
 export class GridSecondComponent implements OnInit {
   pageTitle: string = 'Second Grid';
-  public gridData: any[] = customers;
+  public gridData: any[] = customerObjs;
 
   constructor() { }
 
