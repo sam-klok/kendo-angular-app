@@ -12,8 +12,8 @@ export const customers = [{
     'DOB': '01/31/2000'
 }, {
     'Id': 'ANATR',
-    'CompanyName': 'Ana Trujillo Emparedados y helados',
-    'ContactName': 'Ana Trujillo',
+    'CompanyName': 'Ana Bokov Emparedados y helados',
+    'ContactName': 'Ana Bokov',
     'ContactTitle': 'Owner',
     'Address': 'Avda. de la Constitución 2222',
     'City': 'México D.F.',
