@@ -9,7 +9,7 @@ export const customers = [{
     'Country': 'Germany',
     'Phone': '030-0074321',
     'Fax': '030-0076545',
-    'DOB': '01/01/2000'
+    'DOB': '01/31/2000'
 }, {
     'Id': 'ANATR',
     'CompanyName': 'Ana Trujillo Emparedados y helados',
@@ -89,7 +89,8 @@ export const customers = [{
     'PostalCode': '28023',
     'Country': 'Spain',
     'Phone': '(91) 555 22 82',
-    'Fax': '(91) 555 91 99'
+    'Fax': '(91) 555 91 99',
+    'DOB': '02/22/2023'
 }, {
     'Id': 'BONAP',
     'CompanyName': 'Bon app',
@@ -100,7 +101,8 @@ export const customers = [{
     'PostalCode': '13008',
     'Country': 'France',
     'Phone': '91.24.45.40',
-    'Fax': '91.24.45.41'
+    'Fax': '91.24.45.41',
+    'DOB': '02/22/2023'
 }, {
     'Id': 'BOTTM',
     'CompanyName': 'Bottom-Dollar Markets',
@@ -112,7 +114,8 @@ export const customers = [{
     'PostalCode': 'T2F 8M4',
     'Country': 'Canada',
     'Phone': '(604) 555-4729',
-    'Fax': '(604) 555-3745'
+    'Fax': '(604) 555-3745',
+    'DOB': '02/01/2023'
 }, {
     'Id': 'BSBEV',
     'CompanyName': 'Bad Beverages',
@@ -198,7 +201,8 @@ export const customers = [{
     'PostalCode': '44000',
     'Country': 'France',
     'Phone': '40.67.88.88',
-    'Fax': '40.67.89.89'
+    'Fax': '40.67.89.89',
+    'DOB': '02/23/2023'
 }, {
     'Id': 'EASTC',
     'CompanyName': 'Eastern Connection',
