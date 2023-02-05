@@ -21,3 +21,10 @@ http://localhost:4200/gridsecond
 
 4. Adding kendo license.
 kendo-ui-license.txt
+
+5. I created StackOverflow article:
+How to fix date field filter in the angular-kendo grid?
+https://stackoverflow.com/questions/75342496/how-to-fix-date-field-filter-in-the-angular-kendo-grid
+
+6. How to convert TypeScript array to generic array of class
+https://stackoverflow.com/questions/75346419/how-to-convert-typescript-array-to-generic-array-of-class
