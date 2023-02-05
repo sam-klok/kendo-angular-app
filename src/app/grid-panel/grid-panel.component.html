@@ -11,7 +11,7 @@
     <kendo-grid-column field="ContactName" title="Contact" [width]="120"></kendo-grid-column>
     <kendo-grid-column field="City" [width]="100"></kendo-grid-column>
     <kendo-grid-column field="ContactTitle" [width]="130"></kendo-grid-column>
-    <kendo-grid-column field="DOB" [width]="130"></kendo-grid-column>
+    <kendo-grid-column field="DOB" [width]="130" filter="date"></kendo-grid-column>
 </kendo-grid>
 
 <div *ngIf="paramCompanyName">Parameter passed: {{paramCompanyName}}</div>

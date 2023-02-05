@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { customers } from '../customers';
-import { customerObjs } from '../customersCovert';
+import { customerObjs } from '../customersConvert';
 
 @Component({
   //selector: 'app-grid-second',  //we don't need selector, we will use routing
