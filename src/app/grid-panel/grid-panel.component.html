@@ -6,7 +6,8 @@
     [sortable]="true"
     [pageSize]="7"
     [pageable]="true"
-    [height]="510">
+    [height]="510"
+    [filter]="filter">
     <kendo-grid-column field="CompanyName" title="Company" [width]="140"></kendo-grid-column>
     <kendo-grid-column field="ContactName" title="Contact" [width]="120"></kendo-grid-column>
     <kendo-grid-column field="City" [width]="100"></kendo-grid-column>
@@ -14,6 +15,6 @@
     <kendo-grid-column field="DOB" [width]="130" filter="date"></kendo-grid-column>
 </kendo-grid>
 
-<div *ngIf="paramCompanyName">Parameter passed: {{paramCompanyName}}</div>
+<div *ngIf="paramContactName">Parameter passed: {{paramContactName}}</div>
 
 <app-search-panel></app-search-panel>
