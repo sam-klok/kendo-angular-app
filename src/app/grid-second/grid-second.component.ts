@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CompositeFilterDescriptor } from '@progress/kendo-data-query';
 import { customers } from '../customers';
 import { customerObjs } from '../customersConvert';
 
@@ -10,10 +11,18 @@ import { customerObjs } from '../customersConvert';
 export class GridSecondComponent implements OnInit {
   pageTitle: string = 'Second Grid';
   public gridData: any[] = customerObjs;
-
+  filter: CompositeFilterDescriptor = {
+    logic: 'and',
+    filters: []
+  };
+  
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onButtonClearFiltersClick(){
+    console.log(this.filter);
   }
 
 }

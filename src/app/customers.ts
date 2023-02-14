@@ -44,7 +44,7 @@
     'Country': 'UK',
     'Phone': '(171) 555-7788',
     'Fax': '(171) 555-6750',
-    'DOB': '01/08/1955'
+    'DOB': '02/24/2023'
 }, {
     'Id': 'BERGS',
     'CompanyName': 'Berglunds snabbköp',
